@@ -119,13 +119,27 @@ p {
 }
 
 .description {
-width: 1056px;
-font-family: 'Press Start 2P';
-font-size: 14px;
-line-height: 228.5%;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+  width: 1056px;
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  line-height: 228.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.sunset {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/assets/images/magic.png);
+  background-size: cover;
+}
+.linear{
+width: 1462px;
+height: 447px;
+margin-top: -50%;
+background: linear-gradient(180deg, #28424F 0%, #D69545 100%);
+
 }
 
 @media (max-width: 600px) {
