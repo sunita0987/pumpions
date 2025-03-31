@@ -163,17 +163,16 @@ color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
-
-.slider-track {
+ .slider-track {
   display: flex;
   width: 100%;
 }
 
 .slider-track-1 {
   animation: slideLeft 10s linear infinite;
-}
+} 
 
-.slider-track-2 {
+ .slider-track-2 {
   animation: slideRight 10s linear infinite;
 }
 
@@ -185,9 +184,8 @@ color: #FFFFFF;
   to {
       transform: translateX(-50%);
   }
-}
-
-@keyframes slideRight {
+} 
+ @keyframes slideRight {
   from {
       transform: translateX(-50%);
   }
@@ -198,7 +196,6 @@ color: #FFFFFF;
 }
 
 .slider-track img {
-  width: 100%;
   height: auto;
 }
 @media (max-width: 600px) {
