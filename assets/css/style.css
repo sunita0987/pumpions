@@ -139,7 +139,36 @@ width: 1500px;
 height: 447px;
 margin-top: -50%;
 background: linear-gradient(180deg, #28424F 0%, #D69545 100%);
+}
 
+.subtitle {
+font-family: 'Press Start 2P';
+font-size: 20px;
+line-height: 204.5%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.title {
+font-family: 'Press Start 2P';
+font-size: 36px;
+line-height: 204.5%;
+color: #FFFFFF;
+  margin-top: 20px;
+}
+.cupboard img{
+width: 1400px;
+height: 400px;
+margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .title {
+      font-size: 18px;
+  }
+  .subtitle {
+      font-size: 10px;
+  }
 }
 
 @media (max-width: 600px) {
