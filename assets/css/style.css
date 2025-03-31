@@ -101,16 +101,11 @@ p {
   background-color: #203948;
 }
 .container-2 {
-  /* background: linear-gradient(0deg, #e8770e, #e8770e), #ffffff;
-  border: 1px solid #000000; */
   background-image: url(/assets/images/2ndgroup.png);
   background-repeat: no-repeat;
   height: 400px;
-  width: 70%;
+  width: 80%;
   padding: 20px;
-  display: inline-block;
-  /* box-shadow: 10px 10px black; */
-  /* max-width: 100%; */
   margin-left: 10%;
 }
 
