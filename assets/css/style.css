@@ -455,6 +455,46 @@ p {
   max-height: 200px;
   padding-top: 10px;
 }
+.footer-last{
+  display: flex;
+  align-items: center;
+  min-height:50vh;
+  background-image: url(/assets/images/footerimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+.footer h2 {
+  font-size: 24px;
+  text-shadow: 2px 2px #ffcc00;
+}
+
+.footer p {
+width: 425px;
+font-family: 'Press Start 2P';
+font-size: 12px;
+line-height: 202.4%;
+text-transform: uppercase;
+color: #FFFFFF;
+opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
 @media (max-width: 600px) {
   .team-container {
     flex-direction: column;
