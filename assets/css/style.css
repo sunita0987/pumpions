@@ -391,12 +391,69 @@ p {
   margin-top: 40%;
   margin-left: -50%;
   padding: 10px 20px;
-  background-color: #FFEC37;
+  background-color: #ffec37;
   cursor: pointer;
   border-radius: 20px;
   font-family: "Press Start 2P";
   font-size: 16px;
   line-height: 228.5%;
+}
+
+.accordian {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #28424f;
+}
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Press Start 2P";
+}
+.faq-container h1 {
+  font-size: 32px;
+  line-height: 202.4%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.faq-item {
+  padding: 15px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 202.4%;
+}
+
+.faq-question::after {
+  content: "+";
+  font-size: 24px;
+  transition: transform 0.3s ease;
+  color: #ffffff;
+  background: linear-gradient(179.87deg, #e8770e 5.08%, #fca32b 74.72%), #c4c4c4;
+}
+
+.faq-item.active .faq-question::after {
+  content: "-";
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  /* padding-left: 20px; */
+  color: #000000;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 200px;
+  padding-top: 10px;
 }
 @media (max-width: 600px) {
   .team-container {
