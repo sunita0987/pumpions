@@ -316,25 +316,25 @@ p {
 }
 
 .title-heading {
-width: 252px;
-font-family: 'Press Start 2P';
-font-weight: 400;
-font-size: 36px;
-line-height: 204.5%;
-color: #FFFFFF;
+  width: 252px;
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 204.5%;
+  color: #ffffff;
 }
 
 .description-paragraph {
-font-family: 'Press Start 2P';
-font-size: 14px;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.owning{
-font-family: 'Press Start 2P';
-font-size: 14px;
-text-transform: uppercase;
-color: #FFFFFF;
+.owning {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .image-container {
@@ -348,6 +348,61 @@ color: #FFFFFF;
   width: 100%;
   max-width: 500px;
   /* border-radius: 8px; */
+}
+.founder {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #28424f;
+}
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+}
+.team-member {
+  padding: 30px;
+  text-align: center;
+}
+.founder-heading {
+  font-family: "Press Start 2P";
+  font-size: 32px;
+  line-height: 202.4%;
+  text-align: center;
+  color: #ffffff;
+}
+.team-member img {
+  width: 100%;
+}
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 202.4%;
+}
+.team-member p {
+  font-size: 16px;
+  line-height: 202.4%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.hiring-btn {
+  margin-top: 50%;
+  margin-left: -50%;
+  padding: 10px 20px;
+  background-color: #FFEC37;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: "Press Start 2P";
+  font-size: 16px;
+  line-height: 228.5%;
+}
+@media (max-width: 600px) {
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
