@@ -134,26 +134,26 @@ p {
   background-image: url(/assets/images/magic.png);
   background-size: cover;
 }
-.linear{
-width: 1500px;
-height: 447px;
-margin-top: -50%;
-background: linear-gradient(180deg, #28424F 0%, #D69545 100%);
+.linear {
+  width: 1500px;
+  height: 447px;
+  margin-top: -50%;
+  background: linear-gradient(180deg, #28424f 0%, #d69545 100%);
 }
 
 .subtitle {
-font-family: 'Press Start 2P';
-font-size: 20px;
-line-height: 204.5%;
-text-align: center;
-color: #FFFFFF;
+  font-family: "Press Start 2P";
+  font-size: 20px;
+  line-height: 204.5%;
+  text-align: center;
+  color: #ffffff;
 }
 
 .title {
-font-family: 'Press Start 2P';
-font-size: 36px;
-line-height: 204.5%;
-color: #FFFFFF;
+  font-family: "Press Start 2P";
+  font-size: 36px;
+  line-height: 204.5%;
+  color: #ffffff;
   margin-top: 20px;
 }
 .slider-container {
@@ -163,47 +163,222 @@ color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
- .slider-track {
+.slider-track {
   display: flex;
   width: 100%;
 }
 
 .slider-track-1 {
   animation: slideLeft 10s linear infinite;
-} 
+}
 
- .slider-track-2 {
+.slider-track-2 {
   animation: slideRight 10s linear infinite;
 }
 
 @keyframes slideLeft {
   from {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 
   to {
-      transform: translateX(-50%);
+    transform: translateX(-50%);
   }
-} 
- @keyframes slideRight {
+}
+@keyframes slideRight {
   from {
-      transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 
   to {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 .slider-track img {
   height: auto;
 }
+
+.house {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #28424f;
+}
+
+.container-3 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  font-family: "Press Start 2P";
+  font-size: 20px;
+  line-height: 204.5%;
+  text-align: center;
+  color: #ffffff;
+}
+.heading-2 {
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 204.5%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content-text {
+  display: flex;
+  align-items: center;
+}
+
+.club-image {
+  height: 700px;
+  min-width: 70%;
+  margin-left: -100px;
+  margin-bottom: 20px;
+}
+
+.perks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.perk {
+  background-image: url(/assets/images/card2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  text-align: center;
+  min-width: 100px;
+  min-height: 300px;
+}
+.perk-1 {
+  background-image: url(/assets/images/card1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.events {
+  margin-top: 50px;
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  line-height: 204.5%;
+}
+.artists {
+  margin-top: 50px;
+  width: 135.14px;
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  font-size: 6.52849px;
+  line-height: 204.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.7;
+}
+.artists-2 {
+  margin-left: 90px;
+  width: 135.14px;
+  font-family: "Press Start 2P";
+  font-size: 6.52849px;
+  line-height: 204.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.perk-1 img {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.continue {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #28424f;
+}
+.container-content {
+  display: flex;
+  flex-direction: row;
+  /* max-width: 800px; */
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.title-heading {
+width: 252px;
+font-family: 'Press Start 2P';
+font-weight: 400;
+font-size: 36px;
+line-height: 204.5%;
+color: #FFFFFF;
+}
+
+.description-paragraph {
+font-family: 'Press Start 2P';
+font-size: 14px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.owning{
+font-family: 'Press Start 2P';
+font-size: 14px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 500px;
+  /* border-radius: 8px; */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .content-text {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .club-image {
+    width: 50%;
+  }
+  .perks {
+    width: 50%;
+  }
+}
+
 @media (max-width: 600px) {
   .title {
-      font-size: 18px;
+    font-size: 18px;
   }
   .subtitle {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
 
