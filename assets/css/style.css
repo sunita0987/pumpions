@@ -230,7 +230,7 @@ p {
   min-height: 100px;
   cursor: pointer;
 }
-.perk:hover{
+.perk:hover {
   background-color: #e8770e;
 }
 .events {
@@ -394,16 +394,17 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  color: #000000;
+  color: #ffffff;
 }
+
 .faq-item.active .faq-answer {
   max-height: 200px;
   padding-top: 10px;
 }
-.footer-last{
+.footer-last {
   display: flex;
   align-items: center;
-  min-height:50vh;
+  min-height: 50vh;
   background-image: url(/assets/images/footerimage.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,13 +419,13 @@ p {
   text-shadow: 2px 2px #ffcc00;
 }
 .footer p {
-width: 425px;
-font-family: 'Press Start 2P';
-font-size: 12px;
-line-height: 202.4%;
-text-transform: uppercase;
-color: #FFFFFF;
-opacity: 0.7;
+  width: 425px;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  line-height: 202.4%;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.7;
   margin-bottom: 10px;
 }
 .social-icons a img {
