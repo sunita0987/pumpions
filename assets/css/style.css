@@ -101,7 +101,7 @@ p {
   font-size: 36px;
   line-height: 228.5%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-bottom: 15px;
 }
 .description {
@@ -111,7 +111,7 @@ p {
   line-height: 228.5%;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .sunset {
   display: flex;
@@ -132,13 +132,13 @@ p {
   font-size: 20px;
   line-height: 204.5%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .title {
   font-family: "Press Start 2P";
   font-size: 36px;
   line-height: 204.5%;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 20px;
 }
 .slider-container {
@@ -196,7 +196,7 @@ p {
   font-size: 20px;
   line-height: 204.5%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .heading-2 {
   font-family: "Press Start 2P";
@@ -204,7 +204,7 @@ p {
   font-size: 36px;
   line-height: 204.5%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .content-text {
   display: flex;
@@ -224,7 +224,7 @@ p {
   max-width: 800px;
 }
 .perk {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   padding: 15px;
   text-align: center;
   min-width: 50px;
@@ -279,19 +279,19 @@ p {
   font-weight: 400;
   font-size: 36px;
   line-height: 204.5%;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .description-paragraph {
   font-family: "Press Start 2P";
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .owning {
   font-family: "Press Start 2P";
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .image-container {
   flex: 1;
@@ -324,7 +324,7 @@ p {
   font-size: 32px;
   line-height: 202.4%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .team-member img {
   width: 100%;
@@ -338,7 +338,7 @@ p {
 .team-member p {
   font-size: 16px;
   line-height: 202.4%;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.7;
 }
 .hiring-btn {
@@ -368,7 +368,7 @@ p {
   font-size: 32px;
   line-height: 202.4%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .faq-item {
   padding: 15px 0;
@@ -385,7 +385,7 @@ p {
   content: "+";
   font-size: 24px;
   transition: transform 0.3s ease;
-  color: #ffffff;
+  color: #FFFFFF;
   background: linear-gradient(179.87deg, #e8770e 5.08%, #fca32b 74.72%), #c4c4c4;
 }
 .faq-item.active .faq-question::after {
@@ -395,7 +395,7 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .faq-item.active .faq-answer {
@@ -425,7 +425,7 @@ p {
   font-size: 12px;
   line-height: 202.4%;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.7;
   margin-bottom: 10px;
 }
