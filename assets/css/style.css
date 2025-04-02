@@ -61,7 +61,12 @@
   justify-content: center;
   height: 80vh;
 }
-
+.cloud{
+  margin-left: -100%;
+}
+.cloud2{
+  margin-left: 90%;
+}
 p {
   font-family: "Press Start 2P";
   font-size: 20px;
@@ -249,19 +254,17 @@ p {
 }
 
 .perk {
-  background-image: url(/assets/images/card2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffffff;
   padding: 15px;
   text-align: center;
-  min-width: 100px;
-  min-height: 300px;
+  min-width: 50px;
+  min-height: 100px;
+  cursor: pointer;
 }
-.perk-1 {
-  background-image: url(/assets/images/card1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.perk:hover{
+  background-color: #e8770e;
 }
+
 .events {
   margin-top: 50px;
   font-family: "Press Start 2P";
@@ -280,17 +283,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  opacity: 0.7;
-}
-.artists-2 {
-  margin-left: 90px;
-  width: 135.14px;
-  font-family: "Press Start 2P";
-  font-size: 6.52849px;
-  line-height: 204.5%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
   opacity: 0.7;
 }
 .perk-1 img {
