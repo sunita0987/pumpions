@@ -127,6 +127,7 @@ p {
   background: linear-gradient(180deg, #28424f 0%, #d69545 100%);
 }
 .subtitle {
+  margin-top: 100px;
   font-family: "Press Start 2P";
   font-size: 20px;
   line-height: 204.5%;
